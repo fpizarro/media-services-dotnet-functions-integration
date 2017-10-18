@@ -10,7 +10,7 @@
     {
       "name": "outputBlob",
       "type": "blob",
-      "direction": "InOut",
+      "direction": "out",
       "path": "output/{fileName}-Output.mp4",
       "connection": "StorageConnection"
     }

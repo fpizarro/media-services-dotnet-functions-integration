@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <AssemblyName>encode-blob-singleInput</AssemblyName>
+    <PackageId>encode-blob-singleInput</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net46' ">
+    <PackageReference Include="windowsazure.mediaservices" Version="3.8.0.5" />
+    <PackageReference Include="windowsazure.mediaservices.extensions" Version="3.8.0.3" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
